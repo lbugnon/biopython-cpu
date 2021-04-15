@@ -15,13 +15,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	    imagemagick\
 	    wget
 
-
-RUN python3 -m pip install -U pip
-RUN python3 -m pip install biopython
-RUN python3 -m pip install pandas
-RUN python3 -m pip install torch
-RUN python3 -m pip install torchvision
-RUN python3 -m pip install sklearn
-RUN python3 -m pip install matplotlib
-RUN python3 -m pip install ipdb
-RUN echo 'alias python=python3' >> ~/.bashrc
+RUN pip3 install -U pandas
+#RUN python3 -m pip install -U pip
+#RUN python3 -m pip install biopython
+#RUN python3 -m pip install pandas
+#RUN python3 -m pip install torch
+#RUN python3 -m pip install torchvision
+#RUN python3 -m pip install sklearn
+#RUN python3 -m pip install matplotlib
+#RUN python3 -m pip install ipdb
+#RUN echo 'alias python=python3' >> ~/.bashrc
