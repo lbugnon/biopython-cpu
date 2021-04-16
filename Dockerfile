@@ -22,5 +22,6 @@ RUN pip3 install -U torch
 RUN pip3 install -U torchvision
 RUN pip3 install -U scikit-learn
 RUN pip3 install -U matplotlib
+RUN pip3 install -U ipdb
 
 RUN echo 'alias python=python3' >> ~/.bashrc
