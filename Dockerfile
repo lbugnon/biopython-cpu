@@ -16,12 +16,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	    imagemagick\
 	    wget
 
+RUN pip3 install -U nltk
+RUN pip3 install -U flair
+RUN pip3 install -U transformers
 RUN pip3 install -U pandas
 RUN pip3 install -U biopython
 RUN pip3 install -U torch
 RUN pip3 install -U torchvision
+RUN pip3 install -U tensorflow
 RUN pip3 install -U scikit-learn
+RUN pip3 install -U scipy
 RUN pip3 install -U matplotlib
 RUN pip3 install -U ipdb
+
+
 
 RUN echo 'alias python=python3' >> ~/.bashrc
