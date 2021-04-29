@@ -33,6 +33,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       imagemagick && \
     rm -rf /var/lib/apt/lists/*
     
+RUN pip3 install -U wheel
 RUN pip3 install -U nltk
 RUN pip3 install -U flair
 RUN pip3 install -U transformers
