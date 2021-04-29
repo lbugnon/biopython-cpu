@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	    wget
 
 RUN pip3 install -U nltk
-RUN pip3 install -U flair
+RUN pip3 install -U flair==0.8.1
 RUN pip3 install -U transformers
 RUN pip3 install -U pandas
 RUN pip3 install -U biopython
