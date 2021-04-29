@@ -28,7 +28,7 @@ RUN pip3 install -U scikit-learn
 RUN pip3 install -U scipy
 RUN pip3 install -U matplotlib
 RUN pip3 install -U ipdb
-RUN pip3 uninstall numpy
+RUN pip3 uninstall -y numpy 
 RUN pip3 install -U numpy
 
 
