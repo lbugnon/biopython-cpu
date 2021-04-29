@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	    libfreetype6-dev \
 	    libpng-dev \
 	    sudo \
-	    python3 \
+	    python3.8 \
 	    python3-pip \
 	    python3-setuptools\
 	    python3-dev\
